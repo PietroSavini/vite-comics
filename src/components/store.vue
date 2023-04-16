@@ -61,6 +61,11 @@
                 align-items: center;
                 min-width: 150px;
                 margin-right: 10px;
+                transition:200ms;
+                &:hover{
+                    transform: scale(1.2);
+                    filter: drop-shadow(0 0 .5rem rgb(0, 0, 0));
+                }
                 img{
                     width: 50px;
                     height: 50px;

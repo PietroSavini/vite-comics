@@ -124,12 +124,14 @@
                     
                     ul{
                         margin-bottom: 1.5rem;
+                        
                         &:hover h2{
                             color:$primary;
                         }
                         h2{
                             color: #fff;
                             margin-bottom: 1rem;
+                            transition: 200ms;
                         }
                         li{
                             margin-bottom: 5px;

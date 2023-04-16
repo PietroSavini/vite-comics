@@ -99,9 +99,11 @@
                 padding: 0 .5rem;
                 min-width: 50px;
                 text-align: center;
+                transition: 200ms;
                     &:hover{
                         border-bottom: 5px solid $primary;
                         color: $primary;
+
                     }
                     
                 }
