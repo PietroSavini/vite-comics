@@ -60,11 +60,12 @@
                 display: flex;
                 align-items: center;
                 min-width: 150px;
+                margin-right: 10px;
                 img{
                     width: 50px;
                     height: 50px;
                     object-fit: contain;
-                    margin-right: 10px ;
+                    margin-right: 5px ;
                 }
                 p{
                     font-size: .7rem;

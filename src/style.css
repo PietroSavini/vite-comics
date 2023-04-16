@@ -20,10 +20,12 @@ a{
 
 body{
     background-color: #1F1F1F;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 section{
-    padding: 2rem 3rem;
+    padding: 2rem 0rem;
     width: 100%;
 }
 
@@ -31,4 +33,5 @@ section{
 .wrapper{
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 .5rem;
 }
