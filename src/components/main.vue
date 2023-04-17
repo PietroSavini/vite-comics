@@ -100,6 +100,7 @@ export default{
                         </div>
                     </div>
                 </div>
+                <span class="btn">LOAD MORE</span>
             </div>
         </main>
     </section>
@@ -133,11 +134,29 @@ export default{
                 font-size: 25px;
                 box-shadow: 0 0 10px black;
             }
+            .btn{
+                display: inline-block;
+                padding: .7rem 1.5rem;
+                background-color: $primary;
+                color: #fff;
+                font-weight: 700;
+                font-size: 15px;
+                box-shadow: 0 0 10px black;
+                margin-left: 50%;
+                //non chidedtemi perchè non funziona il margin 0 auto //////////////////////////////////////////////////////////////
+                transform: translateX(-50%);
+                transition: 200ms;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1) translateX(-45%);
+                }
+            }
             .row{
                 width: 100%;
                 padding: 0 .5rem;
                 @include flex (row, center, center );
                 flex-wrap: wrap;
+                margin-bottom: 1.5rem;
                 .col{
                     width: calc(100% / 6);
                     min-width: 170px;
@@ -178,8 +197,6 @@ export default{
                                 color: rgb(255, 234, 0);
                             }
                         }
-                        
-
                     }
                 }
             }
