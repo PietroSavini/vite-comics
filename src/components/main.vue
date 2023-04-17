@@ -89,7 +89,8 @@ export default{
                 <span class="current-series">CURRENT SERIES</span>
                 <div class="row">
                     <div class="col" v-for="thumbnail in thumbs">
-                        <div class="card">
+                        <a href="#">
+                            <div class="card">
                             <div class="card-img">
                                 <img :src="thumbnail.thumb" alt="">
                             </div>
@@ -98,6 +99,7 @@ export default{
                                 <span>{{thumbnail.price}}</span>
                             </div>
                         </div>
+                        </a>
                     </div>
                 </div>
                 <span class="btn">LOAD MORE</span>
